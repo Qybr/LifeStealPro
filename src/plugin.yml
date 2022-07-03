@@ -3,3 +3,7 @@ version: 1.0.0
 author: Qybr
 main: au.qybr.lifesteal.lifesteal
 api-version: 1.19
+commands:
+  withdraw:
+    description: "Withdraws the amount of life you have left"
+    usage: /withdraw <amount>
