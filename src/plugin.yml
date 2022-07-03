@@ -1,0 +1,5 @@
+name: LifeSteal
+version: 1.0.0
+author: Qybr
+main: au.qybr.lifesteal.lifesteal
+api-version: 1.19
