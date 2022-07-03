@@ -10,7 +10,7 @@ public class playerJoin {
     @EventHandler
     public void onJoin(PlayerLoginEvent e) {
         Player p = e.getPlayer();
-        if (p.hasPlayedBefore()) {
+        if (!p.hasPlayedBefore()) {
             playerDeath.playerlives.put(p, 20);
             Attributable playeratri = (Attributable) p;
             AttributeInstance pi = playeratri.getAttribute(org.bukkit.attribute.Attribute.GENERIC_MAX_HEALTH);
