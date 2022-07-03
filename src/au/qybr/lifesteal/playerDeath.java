@@ -10,7 +10,7 @@ import java.util.HashMap;
 
 
 public class playerDeath implements Listener {
-    public HashMap<Player, Integer> playerlives = new HashMap<Player, Integer>();
+    public static HashMap<Player, Integer> playerlives = new HashMap<Player, Integer>();
     public void onDeath(PlayerDeathEvent e) {
         Entity killer = e.getEntity().getKiller();
         Player player = e.getEntity();
